@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Sample backup rules file; see: https://developer.android.com/guide/topics/data/autobackup
+   Googles recommends you have a backup rules file if you set android:fullBackupContent="true"
+   and add any sensitive files or use any credentials in your app.
+-->
+<full-backup-content>
+    <!--
+   <include domain="sharedpref" path="."/>
+   <exclude domain="sharedpref" path="device.xml"/>
+-->
+</full-backup-content>

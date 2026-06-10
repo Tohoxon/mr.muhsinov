@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Budget Tracker</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="transactions">Transactions</string>
+    <string name="budget">Budget</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="edit_transaction">Edit Transaction</string>
+    <string name="add_budget">Add Budget</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="note">Note</string>
+    <string name="date">Date</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="monthly_limit">Monthly Limit</string>
+    <string name="spent">Spent</string>
+    <string name="remaining">Remaining</string>
+    <string name="no_transactions">No transactions yet</string>
+    <string name="no_budgets">No budgets set</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="category_breakdown">Category Breakdown</string>
+    <string name="this_month">This Month</string>
+    <string name="all">All</string>
+    <string name="search_transactions">Search transactions…</string>
+    <string name="select_category">Select Category</string>
+    <string name="optional">Optional</string>
+    <string name="budget_exceeded">Budget exceeded!</string>
+    <string name="see_all">See All</string>
+</resources>
