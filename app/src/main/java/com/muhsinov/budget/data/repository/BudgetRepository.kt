@@ -137,12 +137,6 @@ class BudgetRepository @Inject constructor(
         return getMonthRange(cal.get(Calendar.YEAR), cal.get(Calendar.MONTH))
     }
 
-    suspend fun refreshBudgetSpent(monthYear: String) {
-        val (start, end) = parseMonthYear(monthYear)
-        val budgets = budgetDao.getBudgetsForMonth(monthYear)
-        // Refresh is handled in ViewModel via combine
-    }
-
     private fun parseMonthYear(monthYear: String): Pair<Long, Long> {
         val parts = monthYear.split("-")
         val year = parts[0].toInt()
